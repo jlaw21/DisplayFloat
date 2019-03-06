@@ -1,11 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+
 div{
     background-color: red;
+    margin: 5px;
+    border: 2px solid black;
 }
 
 p{
     background-color: green;
+    clear: both;
 }
 
 #blue-background{
     background-color: blue;
+}
+
+#inline-block-1{
+    display:inline-block;
+    width: 25%;
+}
+
+#inline-block-2{
+    display:inline-block;
+    width:65%;
+}
+
+#float-right{
+    float: right;
+    width: 20%;
+}
+
+#float-left{
+    float: left;
+    width: 20%;
+}
+
+
+#float-center{
+    float:left;
+    width: 50%;
+}
+
+#clear-left{
+    clear:left;
+}
+
+#clear-right{
+    clear:right;
+}
+
+header{
+    border: 2px solid black;
+    background-color:red;
+    height: 100px;
+
+}
+nav{
+    border: 2px solid black;
+    background-color: green;
+    height: 50px;
+}
+aside{
+    border: 2px solid black;
+    background-color: blue;    
+    float: left;
+    width: 10%;
+    height: 100%;
+}
+article{
+    border: 2px solid black;
+    background-color: yellow;
+    float: left;
+    width: 80%;
+    height: 100%;
+}
+
+footer{
+    border: 2px solid black;
+    background-color: purple;
+    height: 100%;
+    width: 10%;
+    float: right;
+
+}
+
+.content{
+    height: 300px;
+    width:100%;
+    margin: 0;
+
 }
